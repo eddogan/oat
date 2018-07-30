@@ -1,0 +1,65 @@
+/*
+Theme Name: Fire Up Your Brand
+Theme URI: http://station8branding.com/
+Author: Ed Dogan
+Description: Station8 starter theme utilizing bootstrap and scrollmagic, acf, tinypng, gravity forms
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: bootstrap, scrollmagic, acf, tinypng, gravity forms
+Text Domain: fire-up-your-brand
+*/
+
+html,body{min-height:100%;font-family:'Saira Semi Condensed',sans-serif;font-size:16px;line-height:1.7em;margin:0}
+body{background-color: #ffffff; background-size:cover}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;	
+}
+a {
+	text-decoration: none;
+}
+
+
+/*-----------HEADER--------------*/
+header a:hover {
+	text-decoration: none;	
+}
+
+header ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+#menu-utility-menu, #menu-main-menu {
+	justify-content: flex-end;	
+}
+
+#menu-mobile-menu {
+	flex-direction: column;
+}
+
+#menu-utility-menu li, #menu-main-menu li {
+    margin-left: 2em;
+}
+
+
+/*-----------FOOTER--------------*/
+
+@media (min-width: 1025px) {
+	/*-----HIDE/SHOW----*/
+	#menu-mobile-menu {display: none;}
+	
+}
+
+@media (max-width: 1024px) {
+	/*-----HIDE/SHOW----*/
+	#menu-utility-menu, #menu-main-menu {display: none;}
+	
+}
+
+@media (max-width: 768px) {
+	
+	
+} 
