@@ -10,13 +10,45 @@ Tags: bootstrap, scrollmagic, acf, tinypng, gravity forms
 Text Domain: fire-up-your-brand
 */
 
-html,body{min-height:100%;font-family:'Saira Semi Condensed',sans-serif;font-size:16px;line-height:1.7em;margin:0}
+html,body{min-height:100%;font-family:'Lato',sans-serif;font-size:16px;line-height:1.7em;margin:0}
 body{background-color: #ffffff; background-size:cover}
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', sans-serif;	
 }
 a {
 	text-decoration: none;
+}
+
+/*------------COLORS-------------*/
+.oat-blue {
+	color: #033474;
+}
+.oat-blue-bg {
+	background-color: #033474;
+} 
+.oat-red {
+	color: #771025;
+}
+.oat-red-bg {
+	background-color: #771025;
+} 
+.oat-dark_gray {
+	color: #9B9B9B;
+}
+.oat-dark_gray-bg {
+	background-color: #9B9B9B;
+}
+.oat-light_gray {
+	color: #C1C1C1;
+}
+.oat-light_gray-bg {
+	background-color: #C1C1C1;
+}
+.oat-black {
+	color: #15173F;
+}
+.oat-black-bg {
+	background-color: #15173F;
 }
 
 
